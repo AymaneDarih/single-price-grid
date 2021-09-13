@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+    background-color: #eee;
+    
+}
+
+.hero{
+    margin: 7rem auto 3rem;
+    
+}
+.grid{
+    max-width: 80rem;
+    margin: 0rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding: 2rem;
+}
+
+.community-grid{
+    padding: 5rem;
+    
+}
+.community-grid.grid--1{
+    grid-column: 1/3;
+    background-color: #fff;
+    border-top-left-radius: 0.9rem;
+    border-top-right-radius: 0.9rem;
+}
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.8rem;
+    color: hsl(179, 62%, 36%);
+}
+.subhead{
+    font-size: 1.6rem;
+    margin-bottom: 1.4rem;
+    color: hsl(71, 73%, 54%);
+
+}
+.head-paragraph{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.5;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+}
+.community-grid.grid--2{
+    background-color: hsl(179, 62%, 36%);
+    opacity: 80%;
+    border-bottom-left-radius: 0.9rem;
+}
+.community-grid.grid--3{
+    background-color: #50bcbc;
+    border-bottom-right-radius: 0.9rem;
+    
+}
+.head-grid{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-weight: 700;
+}
+.flex-price{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2.2rem;
+}
+.under-head-grid-2{
+    color: #7abac2;
+    
+}
+.price{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+
+}
+.access{
+    color: white;
+    margin-bottom: 5rem;
+}
+.sign-up{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #C0DF34;
+    padding: 1.5rem 10.6rem;
+    border-radius: 0.7rem;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.list{
+    list-style: none;
+}
+.list li {
+    line-height: 1.6;
+    color: #E5EFF5;
+}
+footer a{
+    text-decoration: none;
+    color: goldenrod;
+} 
+.attribution{
+    text-align: center;
+    
+}
+@media (max-width:37.5em){
+    html{
+        font-size: 50%;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+        padding: 2rem 11rem;
+    }
+    .community-grid{
+        padding: 5rem 4rem;
+    }
+    .community-grid.grid--1{
+        grid-column:1 ;
+    }
+    h2{
+        margin-bottom: 2.6rem;
+    }
+    .subhead{
+        margin-bottom: 2.8rem;
+    }
+    .head-paragraph{
+        font-size: 1.8rem;
+        line-height: 1.6;
+    }
+    .community-grid.grid--3{
+        border-bottom-left-radius:0.9rem ;
+    }
+    .community-grid.grid--2{
+        border-bottom-left-radius:0;
+    }
+    footer{
+        max-width: 30rem;
+        margin: 0 auto 2rem;
+        line-height: 1.8;
+    }
+}
