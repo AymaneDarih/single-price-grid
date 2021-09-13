@@ -121,7 +121,7 @@ footer a{
     }
     .grid{
         grid-template-columns: 1fr;
-        padding: 2rem 11rem;
+        padding: 2rem 5rem;
     }
     .community-grid{
         padding: 5rem 4rem;
